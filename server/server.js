@@ -16,7 +16,7 @@ app.use(cors());
 // Every route inside of the post routes is going to start with /posts in the url
 app.use('/posts', postRoutes);
 
-const CONNECTION_URL = "mongodb+srv://dylan123:dylan123@cluster0.ki7sn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const CONNECTION_URL = "mongodb+srv://dylan123:dylan123@cluster0.ki7sn.mongodb.net/Memories_Proejct?retryWrites=true&w=majority";
 
 const PORT = process.env.PORT || 5000;
 
